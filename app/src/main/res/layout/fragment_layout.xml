@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.budapesttourguide.MeaningfulFragment">
+
+    <TextView
+        android:id="@+id/page_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding_m"
+        android:paddingRight="@dimen/padding_s"
+        android:paddingTop="@dimen/padding_s"
+        android:background="@color/colorPrimaryLight"
+        android:textColor="@color/colorAccent"
+        android:paddingBottom="@dimen/padding_s"
+        android:textSize="@dimen/text_size_s"
+        android:textAllCaps="true"
+        tools:text="@string/fragment_description_soulfood"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider"
+        android:background="@color/colorDivider"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+

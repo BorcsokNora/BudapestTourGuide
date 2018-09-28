@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Budapest Tour Guide</string>
+
+    <string-array name="tab_titles">
+        <item>SoulFood</item>
+        <item>Meaningful</item>
+        <item>Unrepeatable</item>
+        <item>For Free</item>
+        <item>Singalong</item>
+    </string-array>
+
+    <string name="location">Location: </string>
+    <string name="time">Opening hours: </string>
+    <string name="price">Price: </string>
+
+
+    <!-- Strings for Singalong program category -->
+
+    <string name="fragment_name_5">Singalong</string>
+
+    <string name="singalong_artist_1">Kiscsillag</string>
+    <string name="singalong_artist_2">Quimby</string>
+    <string name="singalong_artist_3">Anna and the Barbies</string>
+    <string name="singalong_artist_4">Szabó Balázs Bandája</string>
+
+    <string name="singalong_song_title_1">Ha az életben</string>
+    <string name="singalong_song_title_2">Autó egy szerpentinen</string>
+    <string name="singalong_song_title_3">Ünnepélyesen fogadom</string>
+    <string name="singalong_song_title_4">Bájoló</string>
+
+    <!-- Strings for Free program category -->
+
+    <string name="fragment_name_2">For free</string>
+
+    <string name="forfree_title_1">Liberty Bridge</string>
+    <string name="forfree_title_2">Danube quay</string>
+    <string name="forfree_title_3">Városliget (City park)</string>
+    <string name="forfree_title_4">Margaret Island</string>
+    <string name="forfree_title_5">Museum garden</string>
+
+    <string name="forfree_description_1">From spring till autumn weekends liberty bridge is occupied by citizens. \nPop-up programs, street musicians, picnic on the trails.</string>
+    <string name="forfree_description_2">Sunsets, monuments, buzzing city life, a bottle of wine, no toilette.</string>
+    <string name="forfree_description_3">Take a seat in a boat or on the grass or in one of the outdoor cafés of the city park near Heroes square.</string>
+    <string name="forfree_description_4">The most iconic family weekend or first date venue of Budapest. And the island-circle is a real runner\'s metric.</string>
+    <string name="forfree_description_5">There are some statues and also cosy banks in the garden of the Hungarian National Museum.</string>
+
+    <!-- Strings for Unrepeatable program category -->
+    <string name="fragment_name_4">Unrepeatable</string>
+
+    <string name="unrepeatable_title_1">Random trip - music</string>
+    <string name="unrepeatable_title_2">Willany Leó - dance</string>
+    <string name="unrepeatable_title_3">Momentán - theatre</string>
+    <string name="unrepeatable_title_4">JazzaJ - music</string>
+
+    <string name="unrepeatable_description_1">Funk and hip-hop on the Danube from the most popular musicians</string>
+    <string name="unrepeatable_description_2">Contemporary dance impro on live music jam</string>
+    <string name="unrepeatable_description_3">Budapest Improw Show from hungarian actors in english</string>
+    <string name="unrepeatable_description_4">Free jazz, experimental pop, electroacoustic impro</string>
+
+    <string name="unrepeatable_location_1">A38 Boat - 1117 Budapest, Petőfi híd,</string>
+    <string name="unrepeatable_location_2">G3 Klub – 1061 Budapest, Király u. 8–10</string>
+    <string name="unrepeatable_location_3">1066 Budapest, Ó u. 4</string>
+    <string name="unrepeatable_location_4">Lumen café - 1085 Budapest, Horánszky utca 5.</string>
+
+    <string name="unrepeatable_time_1">Tuesdays 20:00</string>
+    <string name="unrepeatable_time_2">Thursdays 21:00</string>
+    <string name="unrepeatable_time_3">monthly</string>
+    <string name="unrepeatable_time_4">Wednesdays</string>
+
+    <string name="unrepeatable_price_1">1.200 HUF</string>
+    <string name="unrepeatable_price_2">1.000 HUF</string>
+    <string name="unrepeatable_price_3">3.000 HUF</string>
+    <string name="unrepeatable_price_4">1:000 HUF</string>
+
+    <!-- Strings for Meaningful program category -->
+
+    <string name="fragment_name_3">Meaningful </string>
+
+    <string name="meaningful_title_1">Budapest Bike Maffia</string>
+    <string name="meaningful_title_2">Food not bombs</string>
+    <string name="meaningful_title_3">Mikulásgyár</string>
+
+    <string name="meaningful_description_1">Cyclists volunteer to help the ones in need: giving food and clothing to homeless people, or families living in poverty. You can join as a volunteer to several programs of the "Maffia" - on or off bike as well.</string>
+    <string name="meaningful_description_2">Make food not war! You can join this community every weekend to reduce food waste by saving food at markets and helping to cook delicious vegan meals for those in need.</string>
+    <string name="meaningful_description_3">Create a christmas box of love and donate it to Santa Factory. In the factory you can even help to select and distribute the gifts which will be highly appreciated by socially disadvantaged children.</string>
+
+    <string name="meaningful_url_1">http://bbm.hu/en/join-us/volunteering/</string>
+    <string name="meaningful_url_2">https://www.facebook.com/pg/foodnotbombsbudapest/events/?ref=page_internal</string>
+    <string name="meaningful_url_3">http://mikulasgyar.hu/</string>
+
+    <!-- Strings for Eat & Drink program category -->
+
+    <string name="fragment_name_1">Soulfood</string>
+
+    <string name="eat_drink_head_1">The most welcoming</string>
+    <string name="eat_drink_head_2">The most common</string>
+    <string name="eat_drink_head_3">The most underground</string>
+    <string name="eat_drink_head_4">The most hungarianish</string>
+
+    <string name="eat_drink_title_1">Auróra</string>
+    <string name="eat_drink_title_2">Gólya</string>
+    <string name="eat_drink_title_3">Vittula</string>
+    <string name="eat_drink_title_4">Cserpes</string>
+
+    <string name="eat_drink_description_1">Bistro, bar, community center and concert venue providing safe space for all.</string>
+    <string name="eat_drink_description_2">Community bar and cultural venue with a long and interesting history. Ask the bartenders!</string>
+    <string name="eat_drink_description_3">Ugly walls, revolutionary conversations, low budget drinks.</string>
+    <string name="eat_drink_description_4">The hungarian milk-drink-bar-franchise with a wide range of premium quality dairies.</string>
+
+    <string name="eat_drink_location_1">1084 Budapest, Auróra utca 11.</string>
+    <string name="eat_drink_location_2">1083 Budapest, Bókay János u. 34</string>
+    <string name="eat_drink_location_3">1073 Budapest, Kertész utca 3.</string>
+    <string name="eat_drink_location_4">1052 Budapest, Sütő u. 2</string>
+
+    <string name="eat_drink_time_1">there is always something</string>
+    <string name="eat_drink_time_2">"Monday–Friday 12:00–24:00 \nSaturday 12:00–06:00 \nSunday 18:00–23:00"</string>
+    <string name="eat_drink_time_3">no rules - try at evening!</string>
+    <string name="eat_drink_time_4">"Monday–Friday 7.30–21.00 \nSaturday 9.00–20.00 \nSunday 9.00–18.00"</string>
+
+    <string name="fragment_description_unrepeatable">Improvisation through art types</string>
+    <string name="fragment_description_soulfood">Heartwarming places to eat and drink and be</string>
+    <string name="fragment_description_singalong">Iconic hungarian songs</string>
+    <string name="fragment_description_for_free">Low on budget high on experiences</string>
+    <string name="fragment_description_meaningful">Local causes welcome international volunteers</string>
+
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/extending_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_m"
+    android:paddingRight="@dimen/padding_m"
+    android:paddingTop="@dimen/padding_s"
+    tools:context="com.example.android.budapesttourguide.MeaningfulFragment">
+
+    <TextView
+        android:id="@+id/program_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_l"
+        android:visibility="gone"
+        tools:text="@string/eat_drink_head_1"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/program_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/padding_m"
+            android:minHeight="@dimen/min_height"
+            tools:src="@drawable/ic_card_travel_black_48dp"
+            tools:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/program_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/text_size_l"
+                tools:text="Budapest Bike Maffia" />
+
+            <ImageView
+                android:id="@+id/expand_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_drop_down_black_24dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/program_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_s"
+        android:textSize="16sp"/>
+
+
+    <Button
+        android:id="@+id/meaningful_apply_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|end"
+        android:layout_margin="8dp"
+        android:text="Apply"
+        android:textSize="16sp"
+        tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/program_image"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/program_location_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:text="@string/location"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/program_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/eat_drink_location_1" />
+
+    <TextView
+        android:id="@+id/program_time_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:text="@string/time"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/program_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/eat_drink_time_2" />
+
+    <TextView
+        android:id="@+id/program_price_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:text="@string/price"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/program_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/unrepeatable_price_1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider"
+        android:layout_marginTop="@dimen/padding_s"
+        android:background="@color/colorDivider" />
+</LinearLayout>
